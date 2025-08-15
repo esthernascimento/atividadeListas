@@ -76,7 +76,6 @@ print(60 * '#')
 
 #9- Escreva um programa que leia uma lista(10 valores) de números inteiros e imprima a média dos números da lista. Mais uma vez os valores devem ser digitados pelo usuário.
 listaMedia = []
-
 for i in range(10):
     print("Digite o valor número", i + 1, ":")
     valorDigitado = int(input())
@@ -93,5 +92,6 @@ for i in range (1 ,5):
     listaAtividades.append(input('Digite um valor para inserir à lista: '))
 print(listaAtividades)
 print(60* '#')
+
 
 
